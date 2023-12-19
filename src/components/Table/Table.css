@@ -1,0 +1,34 @@
+.MuiTableRow-root.MuiTableRow-head>*{
+    font-weight: 700 !important;
+
+
+}
+
+.Table td,th{
+    border: none !important;
+
+}
+
+.details{
+    color: #0091ff !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px){
+    .Table{
+        width: 170%;
+      
+    }
+}
+
+@media screen and (max-width:768px){
+    .Table{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18rem;
+        
+    }
+}
+
